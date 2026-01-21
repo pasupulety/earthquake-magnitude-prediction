@@ -44,7 +44,7 @@ earthquake-magnitude-prediction/
 ├── LICENSE                    # MIT License
 └── .gitignore                 # Ignored files
 
-
+---
 ## 🔍 Exploratory Data Analysis (EDA)
 Key analyses performed:
 - Distribution of earthquake magnitudes
