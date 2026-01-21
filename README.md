@@ -12,6 +12,17 @@ This project performs **Exploratory Data Analysis (EDA)** and builds **machine l
 - Visualize spatial and temporal earthquake trends
 
 ---
+## 📌 Key Results & Insights
+
+- Linear Regression RMSE: **0.428**
+- Random Forest RMSE: **0.429**
+- Tree-based models slightly improved non-linear learning but showed similar performance
+- Earthquake magnitude is influenced most by:
+  - Latitude
+  - Longitude
+  - Depth
+- Temporal features (Year, Month, Hour) had lower predictive impact
+
 
 ## 📊 Dataset Overview
 The dataset contains global earthquake records with:
@@ -21,6 +32,17 @@ The dataset contains global earthquake records with:
 - Magnitude (target variable)
 
 Missing and low-quality columns were removed during preprocessing.
+---
+
+## 📁 Project Structure
+
+earthquake-magnitude-prediction/
+│
+├── 01_data_exploration.ipynb # EDA, feature engineering, modeling
+├── database.csv # Raw earthquake dataset
+├── README.md # Project documentation
+├── LICENSE # MIT License
+└── .gitignore # Ignored files
 
 ---
 
