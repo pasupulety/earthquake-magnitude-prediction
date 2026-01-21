@@ -103,6 +103,14 @@ These improve interpretability and storytelling.
 
 ---
 
+## 🧠 Conclusion & Insights
+
+- Earthquake magnitude prediction is challenging due to complex geophysical factors
+- Tree-based models captured non-linear patterns but showed performance similar to linear models
+- Spatial features (Latitude, Longitude, Depth) were more influential than temporal features
+- This project demonstrates a complete ML workflow from EDA to model evaluation
+
+
 ## 🚀 Future Improvements
 - Hyperparameter tuning for Random Forest  
 - Try advanced models (XGBoost, Gradient Boosting)  
