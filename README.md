@@ -36,15 +36,14 @@ Missing and low-quality columns were removed during preprocessing.
 
 ## 📁 Project Structure
 
+```text
 earthquake-magnitude-prediction/
-│
-├── 01_data_exploration.ipynb # EDA, feature engineering, modeling
-├── database.csv # Raw earthquake dataset
-├── README.md # Project documentation
-├── LICENSE # MIT License
-└── .gitignore # Ignored files
+├── 01_data_exploration.ipynb   # EDA, feature engineering, modeling
+├── database.csv               # Raw earthquake dataset
+├── README.md                  # Project documentation
+├── LICENSE                    # MIT License
+└── .gitignore                 # Ignored files
 
----
 
 ## 🔍 Exploratory Data Analysis (EDA)
 Key analyses performed:
