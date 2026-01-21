@@ -34,7 +34,7 @@ The dataset contains global earthquake records with:
 Missing and low-quality columns were removed during preprocessing.
 ---
 
-## 📁 Project Structure
+📁 Project Structure
 
 ```text
 earthquake-magnitude-prediction/
