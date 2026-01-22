@@ -120,6 +120,7 @@ These improve interpretability and storytelling.
 ![Magnitude Distribution](images/magnitude_distribution.png)
 
 
+
 ## 🧠 Conclusion & Insights
 
 - Earthquake magnitude prediction is challenging due to complex geophysical factors
