@@ -5,6 +5,7 @@ This project performs **Exploratory Data Analysis (EDA)** and builds **machine l
 ---
 
 ## 📌 Project Objectives
+
 - Understand earthquake patterns using EDA  
 - Engineer meaningful time-based features  
 - Build and compare regression models  
@@ -14,9 +15,10 @@ This project performs **Exploratory Data Analysis (EDA)** and builds **machine l
 ---
 
 ## 📊 Key Results & Insights
+
 - **Linear Regression RMSE:** ~0.428  
 - **Random Forest RMSE:** ~0.429  
-- Tree-based models captured non-linear patterns but showed similar performance  
+- Tree-based models captured non-linear patterns but showed similar performance to linear models  
 - Earthquake magnitude is influenced most by:
   - Latitude  
   - Longitude  
@@ -25,116 +27,63 @@ This project performs **Exploratory Data Analysis (EDA)** and builds **machine l
 
 ---
 
-## 📁 Dataset Overview
-The dataset contains global earthquake records with:
-- Location information (Latitude, Longitude)  
-- Depth of the earthquake  
-- Date and time of occurrence  
-- Magnitude (target variable)  
+## 📈 Visualizations Included
 
-Missing and low-quality columns were removed during preprocessing.
-
----
-
-## 📂 Project Structure
-
-```text
-earthquake-magnitude-prediction/
-├── 01_data_exploration.ipynb   # EDA, feature engineering, modeling
-├── database.csv               # Raw earthquake dataset
-├── README.md                  # Project documentation
-├── LICENSE                    # MIT License
-└── .gitignore                 # Ignored files
-
----
-
-## 🔍 Exploratory Data Analysis (EDA)
-
-Key analyses performed:
-- Distribution of earthquake magnitudes  
-- Scatter plot: **Depth vs Magnitude**  
-- Heatmap of earthquake locations (Latitude vs Longitude)  
-- Time-series trend of average earthquake magnitude over years  
-
----
-
-## 🛠 Feature Engineering
-
-New features extracted from the datetime column:
-- Year  
-- Month  
-- Day  
-- Hour  
-
-These features help capture temporal patterns in earthquake occurrences.
-
----
-
-## 🤖 Models Used
-
-### 1️⃣ Linear Regression
-- Baseline regression model  
-- Used to understand linear relationships between features and magnitude  
-
-### 2️⃣ Random Forest Regressor
-- Ensemble model using multiple decision trees  
-- Captures non-linear relationships  
-- Feature importance analysis performed  
-
----
-
-## 📈 Model Evaluation
-
-- Evaluation Metric: **Root Mean Squared Error (RMSE)**  
-- RMSE provides an interpretable measure of prediction error in magnitude units  
-
-**Results:**
-- Linear Regression RMSE: ~0.428  
-- Random Forest RMSE: ~0.429  
-
----
-
-## 📊 Visualizations Included
 - Earthquake location heatmap  
 - Time-series plot of average magnitude over years  
 - Feature importance bar chart (Random Forest)  
+- Depth vs Magnitude scatter plot  
+- Magnitude distribution histogram  
 
-These improve interpretability and storytelling.
 ---
-## 📊 Visual Insights
+
+## 🔍 Visual Insights
 
 ### Average Magnitude Over Time
 ![Average Magnitude Over Time](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/avg_magnitude_over_time.png)
 
+---
+
 ### Earthquake Location Heatmap
 ![Earthquake Heatmap](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/earthquake_heatmap.png)
+
+---
 
 ### Feature Importance (Random Forest)
 ![Feature Importance](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/feature_importance.png)
 
+---
+
 ### Depth vs Magnitude
 ![Depth vs Magnitude](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/depth_vs_magnitude.png)
+
+---
 
 ### Distribution of Earthquake Magnitudes
 ![Magnitude Distribution](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/magnitude_distribution.png)
 
+---
+
 ## 🧠 Conclusion & Insights
 
-- Earthquake magnitude prediction is challenging due to complex geophysical factors
-- Tree-based models captured non-linear patterns but showed performance similar to linear models
-- Spatial features (Latitude, Longitude, Depth) were more influential than temporal features
-- This project demonstrates a complete ML workflow from EDA to model evaluation
-
-
-## 🚀 Future Improvements
-- Hyperparameter tuning for Random Forest  
-- Try advanced models (XGBoost, Gradient Boosting)  
-- Incorporate tectonic plate data  
-- Build an interactive dashboard (Plotly / Power BI)  
+- Earthquake magnitude prediction is challenging due to complex geophysical factors  
+- Tree-based models captured non-linear relationships but did not significantly outperform linear regression  
+- Spatial features (Latitude, Longitude, Depth) were more influential than temporal features  
+- This project demonstrates a complete ML workflow from **EDA → Feature Engineering → Modeling → Evaluation → Visualization**
 
 ---
 
-## 🧰 Tools & Technologies
+## 🚀 Future Improvements
+
+- Hyperparameter tuning for Random Forest  
+- Try advanced models (XGBoost, Gradient Boosting)  
+- Incorporate tectonic plate boundary data  
+- Build an interactive dashboard (Plotly / Power BI)
+
+---
+
+## 🛠️ Tools & Technologies
+
 - Python  
 - Pandas, NumPy  
 - Matplotlib, Seaborn  
@@ -143,6 +92,6 @@ These improve interpretability and storytelling.
 
 ---
 
-## 📜 License
-This project is licensed under the **MIT License**.
+## 📄 License
 
+This project is licensed under the **MIT License**.
