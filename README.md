@@ -104,7 +104,7 @@ These improve interpretability and storytelling.
 ---
 ## 📊 Visual Insights
 
-### Earthquake Magnitude Trend Over Time
+### Average Magnitude Over Time
 ![Average Magnitude Over Time](images/avg_magnitude_over_time.png)
 
 ### Earthquake Location Heatmap
@@ -118,7 +118,6 @@ These improve interpretability and storytelling.
 
 ### Distribution of Earthquake Magnitudes
 ![Magnitude Distribution](images/magnitude_distribution.png)
-
 
 
 ## 🧠 Conclusion & Insights
