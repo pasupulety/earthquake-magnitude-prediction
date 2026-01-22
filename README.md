@@ -101,9 +101,6 @@ These features help capture temporal patterns in earthquake occurrences.
 
 These improve interpretability and storytelling.
 ---
-
-<br>
-
 ## 📊 Visual Insights
 
 ### Average Magnitude Over Time
@@ -120,7 +117,6 @@ These improve interpretability and storytelling.
 
 ### Distribution of Earthquake Magnitudes
 ![Magnitude Distribution](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/magnitude_distribution.png)
-
 
 ## 🧠 Conclusion & Insights
 
