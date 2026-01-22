@@ -105,19 +105,27 @@ These improve interpretability and storytelling.
 ## 📊 Visual Insights
 
 ### Average Magnitude Over Time
-![Average Magnitude Over Time](images/avg_magnitude_over_time.png)
+![Average Magnitude Over Time](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/avg_magnitude_over_time.png)
+
+---
 
 ### Earthquake Location Heatmap
-![Earthquake Heatmap](images/earthquake_heatmap.png)
+![Earthquake Heatmap](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/earthquake_heatmap.png)
+
+---
 
 ### Feature Importance (Random Forest)
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/feature_importance.png)
+
+---
 
 ### Depth vs Magnitude
-![Depth vs Magnitude](images/depth_vs_magnitude.png)
+![Depth vs Magnitude](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/depth_vs_magnitude.png)
+
+---
 
 ### Distribution of Earthquake Magnitudes
-![Magnitude Distribution](images/magnitude_distribution.png)
+![Magnitude Distribution](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/magnitude_distribution.png)
 
 
 ## 🧠 Conclusion & Insights
