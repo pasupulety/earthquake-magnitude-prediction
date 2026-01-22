@@ -3,6 +3,21 @@
 This project performs **Exploratory Data Analysis (EDA)** and builds **machine learning models** to predict earthquake magnitude using historical global earthquake data.
 
 ---
+## 📊 Dataset
+
+The dataset used in this project is sourced from **Kaggle**:
+
+**Global Earthquake Dataset**  
+🔗 [https://www.kaggle.com/datasets/XXXXXXXX/earthquake-dataset](https://www.kaggle.com/datasets/usgs/earthquake-database?resource=download)
+
+Due to Kaggle’s licensing terms, the dataset is **not included directly** in this repository.
+
+### How to Download
+1. Create a Kaggle account (if not already done)
+2. Download the dataset from the link above
+3. Extract the CSV file
+4. Place it in the project root directory as:
+
 
 ## 📌 Project Objectives
 
