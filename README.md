@@ -100,29 +100,23 @@ These features help capture temporal patterns in earthquake occurrences.
 - Feature importance bar chart (Random Forest)  
 
 These improve interpretability and storytelling.
-
 ---
+
+<br>
+
 ## 📊 Visual Insights
 
 ### Average Magnitude Over Time
 ![Average Magnitude Over Time](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/avg_magnitude_over_time.png)
 
----
-
 ### Earthquake Location Heatmap
 ![Earthquake Heatmap](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/earthquake_heatmap.png)
-
----
 
 ### Feature Importance (Random Forest)
 ![Feature Importance](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/feature_importance.png)
 
----
-
 ### Depth vs Magnitude
 ![Depth vs Magnitude](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/depth_vs_magnitude.png)
-
----
 
 ### Distribution of Earthquake Magnitudes
 ![Magnitude Distribution](https://raw.githubusercontent.com/pasupulety/earthquake-magnitude-prediction/main/images/magnitude_distribution.png)
