@@ -102,6 +102,23 @@ These features help capture temporal patterns in earthquake occurrences.
 These improve interpretability and storytelling.
 
 ---
+## 📊 Visual Insights
+
+### Earthquake Magnitude Trend Over Time
+![Average Magnitude Over Time](images/avg_magnitude_over_time.png)
+
+### Earthquake Location Heatmap
+![Earthquake Heatmap](images/earthquake_heatmap.png)
+
+### Feature Importance (Random Forest)
+![Feature Importance](images/feature_importance.png)
+
+### Depth vs Magnitude
+![Depth vs Magnitude](images/depth_vs_magnitude.png)
+
+### Distribution of Earthquake Magnitudes
+![Magnitude Distribution](images/magnitude_distribution.png)
+
 
 ## 🧠 Conclusion & Insights
 
